@@ -1,21 +1,37 @@
-name: Update Data
+name: Update Gold Data
+
 on:
   schedule:
-    - cron: '0 * * * *' # تحديث تلقائي كل رأس ساعة
-  workflow_dispatch: # زر تحديث يدوي
+    # هذه هي الصيغة الصحيحة لـ 45 دقيقة
+    - cron: '*/45 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  download:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Fetch Data
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
         run: |
-          curl -L "${{ secrets.SHEET_URL }}" -o data.csv
-      - name: Save Changes
+          pip install pandas requests
+
+      - name: Run Script
+        run: python main.py 
+
+      - name: Commit and Push changes
         run: |
-          git config --global user.name 'UpdateBot'
-          git config --global user.email 'bot@github.com'
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add data.csv
-          git commit -m "Update prices" || echo "No changes"
+          git commit -m "Auto Update: $(date)" || echo "No changes to update"
           git push
