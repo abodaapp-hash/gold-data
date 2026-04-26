@@ -1,0 +1,21 @@
+name: Update Data
+on:
+  schedule:
+    - cron: '0 * * * *' # تحديث تلقائي كل رأس ساعة
+  workflow_dispatch: # زر تحديث يدوي
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Fetch Data
+        run: |
+          curl -L "${{ secrets.SHEET_URL }}" -o data.csv
+      - name: Save Changes
+        run: |
+          git config --global user.name 'UpdateBot'
+          git config --global user.email 'bot@github.com'
+          git add data.csv
+          git commit -m "Update prices" || echo "No changes"
+          git push
