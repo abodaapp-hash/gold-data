@@ -1,0 +1,20 @@
+import requests
+import os
+import time
+
+URL = "https://dahabmasr.com/PriceAuth/data.json"
+os.makedirs("data", exist_ok=True)
+
+# كسر الكاش
+url_with_time = URL + "&t=" + str(int(time.time()))
+
+response = requests.get(url_with_time)
+response.encoding = 'utf-8-sig'
+
+# حفظ الملف الأساسي فقط
+with open("data/latest.csv", "w", encoding="utf-8-sig") as f:
+    f.write(response.text)
+    # إضافة سطر في النهاية للتأكد من وجود تغيير لعمل الـ Commit
+    f.write(f"\n# Last Update: {time.ctime()}")
+
+print("✅ Updated latest.csv")
