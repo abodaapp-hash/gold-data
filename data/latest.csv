@@ -126,7 +126,7 @@ src="https://www.facebook.com/tr?id=1361150974512968&ev=PageView&noscript=1"
                     </div>
         <div class="right-content">
                             <div data-role="switcher" class="admin__actions-switch pull-right">
-                                            <input type="checkbox" class="admin__actions-switch-checkbox" value="0" id="active-fbuilder" onclick="setLocation('https://dahabmasr.com/fbuilder/index/active/referrer/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1MzE3/')"/>
+                                            <input type="checkbox" class="admin__actions-switch-checkbox" value="0" id="active-fbuilder" onclick="setLocation('https://dahabmasr.com/fbuilder/index/active/referrer/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1OTA1/')"/>
                                         <label class="admin__actions-switch-label" for="active-fbuilder">
                         <span class="admin__actions-switch-text" data-text-on="Yes" data-text-off="No"></span>
                     </label>
@@ -163,7 +163,7 @@ src="https://www.facebook.com/tr?id=1361150974512968&ev=PageView&noscript=1"
 
 
                                                                                                 <div class="view-ar switcher-option">
-                            <a href="https://dahabmasr.com/stores/store/redirect/___store/ar/___from_store/en/uenc/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1MzE3P19fX3N0b3JlPWFy/">
+                            <a href="https://dahabmasr.com/stores/store/redirect/___store/ar/___from_store/en/uenc/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1OTA1P19fX3N0b3JlPWFy/">
                                 عربي
                             </a>
                         </div>
@@ -359,7 +359,7 @@ El Galla
 </div></div><div id="main-Accountcontent" class="tab-pane"><div class="top-links">
 <div class="login-form logged-customer">
     <button class="close-myaccount"><span class="icon-cross2"></span></button>
-    <ul class="header links"><li><a href="https://dahabmasr.com/customer/account/" id="idUtBmCdSj" >My Account</a></li><li class="link wishlist" data-bind="scope: 'wishlist'">
+    <ul class="header links"><li><a href="https://dahabmasr.com/customer/account/" id="idsp1MsFWO" >My Account</a></li><li class="link wishlist" data-bind="scope: 'wishlist'">
     <a href="https://dahabmasr.com/wishlist/">My Wish List        <!-- ko if: wishlist().counter -->
         <span data-bind="text: wishlist().counter" class="counter qty"></span>
         <!-- /ko -->
@@ -369,7 +369,7 @@ El Galla
 <li class="link authorization-link" data-label="or">
     <a href="https://dahabmasr.com/customer/account/login/referer/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL2Ntcy9ub3JvdXRlL2luZGV4Lw~~/"        >Sign In</a>
 </li>
-<li><a href="https://dahabmasr.com/customer/account/create/" id="idOqwoAYwC" >Create an Account</a></li></ul></div>
+<li><a href="https://dahabmasr.com/customer/account/create/" id="idVTpYgfsk" >Create an Account</a></li></ul></div>
 </div></div><div id="main-Settingcontent" class="tab-pane"><div class="customer-web-config">        <div class="switcher language switcher-language" data-ui-id="language-switcher" id="switcher-language">
         <strong class="label switcher-label"><span>Language</span></strong>
         <div class="actions dropdown options switcher-options">
@@ -385,7 +385,7 @@ El Galla
             <ul class="dropdown switcher-dropdown"
                 data-target="dropdown">
                                                                                                 <li class="view-ar switcher-option">
-                            <a href="https://dahabmasr.com/stores/store/redirect/___store/ar/___from_store/en/uenc/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1MzE3P19fX3N0b3JlPWFy/">
+                            <a href="https://dahabmasr.com/stores/store/redirect/___store/ar/___from_store/en/uenc/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1OTA1P19fX3N0b3JlPWFy/">
                                 <img src="https://dahabmasr.com/static/version1778603177/frontend/Mgs/claue/en_US/images/flags/ar.png" alt="" />عربي                            </a>
                         </li>
                                                 </ul>
@@ -403,7 +403,7 @@ El Galla
 
 
                                                                                                 <div class="view-ar switcher-option">
-                            <a href="https://dahabmasr.com/stores/store/redirect/___store/ar/___from_store/en/uenc/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1MzE3P19fX3N0b3JlPWFy/">
+                            <a href="https://dahabmasr.com/stores/store/redirect/___store/ar/___from_store/en/uenc/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1OTA1P19fX3N0b3JlPWFy/">
                                 عربي
                             </a>
                         </div>
@@ -473,7 +473,7 @@ El Galla
         <div class="header-acccount">
 <div class="login-form logged-customer">
     <button class="close-myaccount"><span class="icon-cross2"></span></button>
-    <ul class="header links"><li><a href="https://dahabmasr.com/customer/account/" id="idUtBmCdSj" >My Account</a></li><li class="link wishlist" data-bind="scope: 'wishlist'">
+    <ul class="header links"><li><a href="https://dahabmasr.com/customer/account/" id="idsp1MsFWO" >My Account</a></li><li class="link wishlist" data-bind="scope: 'wishlist'">
     <a href="https://dahabmasr.com/wishlist/">My Wish List        <!-- ko if: wishlist().counter -->
         <span data-bind="text: wishlist().counter" class="counter qty"></span>
         <!-- /ko -->
@@ -483,7 +483,7 @@ El Galla
 <li class="link authorization-link" data-label="or">
     <a href="https://dahabmasr.com/customer/account/login/referer/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL2Ntcy9ub3JvdXRlL2luZGV4Lw~~/"        >Sign In</a>
 </li>
-<li><a href="https://dahabmasr.com/customer/account/create/" id="idOqwoAYwC" >Create an Account</a></li></ul></div>
+<li><a href="https://dahabmasr.com/customer/account/create/" id="idVTpYgfsk" >Create an Account</a></li></ul></div>
 </div>
     </div>
 
@@ -492,7 +492,7 @@ El Galla
                                     <div class="header-acccount">
 <div class="login-form logged-customer">
     <button class="close-myaccount"><span class="icon-cross2"></span></button>
-    <ul class="header links"><li><a href="https://dahabmasr.com/customer/account/" id="idUtBmCdSj" >My Account</a></li><li class="link wishlist" data-bind="scope: 'wishlist'">
+    <ul class="header links"><li><a href="https://dahabmasr.com/customer/account/" id="idsp1MsFWO" >My Account</a></li><li class="link wishlist" data-bind="scope: 'wishlist'">
     <a href="https://dahabmasr.com/wishlist/">My Wish List        <!-- ko if: wishlist().counter -->
         <span data-bind="text: wishlist().counter" class="counter qty"></span>
         <!-- /ko -->
@@ -502,7 +502,7 @@ El Galla
 <li class="link authorization-link" data-label="or">
     <a href="https://dahabmasr.com/customer/account/login/referer/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL2Ntcy9ub3JvdXRlL2luZGV4Lw~~/"        >Sign In</a>
 </li>
-<li><a href="https://dahabmasr.com/customer/account/create/" id="idOqwoAYwC" >Create an Account</a></li></ul></div>
+<li><a href="https://dahabmasr.com/customer/account/create/" id="idVTpYgfsk" >Create an Account</a></li></ul></div>
 </div>
                                 </div>
                             
@@ -632,7 +632,7 @@ El Galla
     <!-- /ko -->
 </div>
 
-</div><div class="columns"><div class="column main"><input name="form_key" type="hidden" value="1Q3qqAFQUKQoGeSM" /><div id="authenticationPopup" data-bind="scope:'authenticationPopup', style: {display: 'none'}">
+</div><div class="columns"><div class="column main"><input name="form_key" type="hidden" value="k2mJg8OBLDUazLN2" /><div id="authenticationPopup" data-bind="scope:'authenticationPopup', style: {display: 'none'}">
             <!-- ko template: getTemplate() --><!-- /ko -->
         
 </div>
@@ -767,7 +767,7 @@ El Galla
                                             
         
         <div class="block widget list-products mgs-list-products list-products-list ">
-            <div id="list-products-list-carousel-5417167671779045318" class="items line row-1 row-tablet-1 row-mobile-1">
+            <div id="list-products-list-carousel-3819564821779045905" class="items line row-1 row-tablet-1 row-mobile-1">
                                                             <div class="col">
                                         <div class="product product-item">
                         <div class="product-item-info" data-container="product-list">
@@ -786,13 +786,13 @@ El Galla
                     </a>
                 </li>
                                                             <li>
-                            <button class="action towishlist" title="Add to Wish List" data-title="Add to Wish List" aria-label="Add to Wish List" data-post="{"action":"https:\/\/dahabmasr.com\/wishlist\/index\/add\/","data":{"product":110,"uenc":"aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1MzE3"}}" data-action="add-to-wishlist" role="button">
+                            <button class="action towishlist" title="Add to Wish List" data-title="Add to Wish List" aria-label="Add to Wish List" data-post="{"action":"https:\/\/dahabmasr.com\/wishlist\/index\/add\/","data":{"product":110,"uenc":"aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1OTA1"}}" data-action="add-to-wishlist" role="button">
                                 <i class="pe-7s-like"></i>
                             </button>
                         </li>
                                     
                                                         <li>
-                        <button class="action tocompare" title="Add to Compare" data-title="Add to Compare" aria-label="Add to Compare" data-post="{"action":"https:\/\/dahabmasr.com\/catalog\/product_compare\/add\/","data":{"product":"110","uenc":"aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1MzE3"}}" role="button">
+                        <button class="action tocompare" title="Add to Compare" data-title="Add to Compare" aria-label="Add to Compare" data-post="{"action":"https:\/\/dahabmasr.com\/catalog\/product_compare\/add\/","data":{"product":"110","uenc":"aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1OTA1"}}" role="button">
                             <i class="pe-7s-graph3"></i>
                         </button>
                     </li>
@@ -828,10 +828,10 @@ El Galla
                             <div class="product-item-inner">
                     <div class="product actions product-item-actions">
                                                     <div class="actions-primary">
-                                                                                                        <form data-role="tocart-form" data-product-sku="El Galla, Gold Bar, 0.25 Gram, 999.9 Pure" action="https://dahabmasr.com/checkout/cart/add/uenc/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1MzE3/product/110/" method="post">
+                                                                                                        <form data-role="tocart-form" data-product-sku="El Galla, Gold Bar, 0.25 Gram, 999.9 Pure" action="https://dahabmasr.com/checkout/cart/add/uenc/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1OTA1/product/110/" method="post">
                                         <input type="hidden" name="product" value="110">
-                                        <input type="hidden" name="uenc" value="aHR0cHM6Ly9kYWhhYm1hc3IuY29tL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNITTZMeTlrWVdoaFltMWhjM0l1WTI5dEwxQnlhV05sUVhWMGFDOWtZWFJoTG1wemIyNG1kRDB4TnpjNU1EUTFNekUzL3Byb2R1Y3QvMTEwLw~~">
-                                        <input name="form_key" type="hidden" value="1Q3qqAFQUKQoGeSM">
+                                        <input type="hidden" name="uenc" value="aHR0cHM6Ly9kYWhhYm1hc3IuY29tL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNITTZMeTlrWVdoaFltMWhjM0l1WTI5dEwxQnlhV05sUVhWMGFDOWtZWFJoTG1wemIyNG1kRDB4TnpjNU1EUTFPVEExL3Byb2R1Y3QvMTEwLw~~">
+                                        <input name="form_key" type="hidden" value="k2mJg8OBLDUazLN2">
                                                                                     <button type="submit" title="Add to Cart" class="action tocart btn btn-default btn-xs">
                                                 <span>Add to Cart</span>
                                             </button>
@@ -863,13 +863,13 @@ El Galla
                     </a>
                 </li>
                                                             <li>
-                            <button class="action towishlist" title="Add to Wish List" data-title="Add to Wish List" aria-label="Add to Wish List" data-post="{"action":"https:\/\/dahabmasr.com\/wishlist\/index\/add\/","data":{"product":109,"uenc":"aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1MzE3"}}" data-action="add-to-wishlist" role="button">
+                            <button class="action towishlist" title="Add to Wish List" data-title="Add to Wish List" aria-label="Add to Wish List" data-post="{"action":"https:\/\/dahabmasr.com\/wishlist\/index\/add\/","data":{"product":109,"uenc":"aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1OTA1"}}" data-action="add-to-wishlist" role="button">
                                 <i class="pe-7s-like"></i>
                             </button>
                         </li>
                                     
                                                         <li>
-                        <button class="action tocompare" title="Add to Compare" data-title="Add to Compare" aria-label="Add to Compare" data-post="{"action":"https:\/\/dahabmasr.com\/catalog\/product_compare\/add\/","data":{"product":"109","uenc":"aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1MzE3"}}" role="button">
+                        <button class="action tocompare" title="Add to Compare" data-title="Add to Compare" aria-label="Add to Compare" data-post="{"action":"https:\/\/dahabmasr.com\/catalog\/product_compare\/add\/","data":{"product":"109","uenc":"aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1OTA1"}}" role="button">
                             <i class="pe-7s-graph3"></i>
                         </button>
                     </li>
@@ -905,10 +905,10 @@ El Galla
                             <div class="product-item-inner">
                     <div class="product actions product-item-actions">
                                                     <div class="actions-primary">
-                                                                                                        <form data-role="tocart-form" data-product-sku="El Galla, Gold Bar, 0.5 Gram, 999.9 Pure" action="https://dahabmasr.com/checkout/cart/add/uenc/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1MzE3/product/109/" method="post">
+                                                                                                        <form data-role="tocart-form" data-product-sku="El Galla, Gold Bar, 0.5 Gram, 999.9 Pure" action="https://dahabmasr.com/checkout/cart/add/uenc/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1OTA1/product/109/" method="post">
                                         <input type="hidden" name="product" value="109">
-                                        <input type="hidden" name="uenc" value="aHR0cHM6Ly9kYWhhYm1hc3IuY29tL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNITTZMeTlrWVdoaFltMWhjM0l1WTI5dEwxQnlhV05sUVhWMGFDOWtZWFJoTG1wemIyNG1kRDB4TnpjNU1EUTFNekUzL3Byb2R1Y3QvMTA5Lw~~">
-                                        <input name="form_key" type="hidden" value="1Q3qqAFQUKQoGeSM">
+                                        <input type="hidden" name="uenc" value="aHR0cHM6Ly9kYWhhYm1hc3IuY29tL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNITTZMeTlrWVdoaFltMWhjM0l1WTI5dEwxQnlhV05sUVhWMGFDOWtZWFJoTG1wemIyNG1kRDB4TnpjNU1EUTFPVEExL3Byb2R1Y3QvMTA5Lw~~">
+                                        <input name="form_key" type="hidden" value="k2mJg8OBLDUazLN2">
                                                                                     <button type="submit" title="Add to Cart" class="action tocart btn btn-default btn-xs">
                                                 <span>Add to Cart</span>
                                             </button>
@@ -940,13 +940,13 @@ El Galla
                     </a>
                 </li>
                                                             <li>
-                            <button class="action towishlist" title="Add to Wish List" data-title="Add to Wish List" aria-label="Add to Wish List" data-post="{"action":"https:\/\/dahabmasr.com\/wishlist\/index\/add\/","data":{"product":95,"uenc":"aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1MzE3"}}" data-action="add-to-wishlist" role="button">
+                            <button class="action towishlist" title="Add to Wish List" data-title="Add to Wish List" aria-label="Add to Wish List" data-post="{"action":"https:\/\/dahabmasr.com\/wishlist\/index\/add\/","data":{"product":95,"uenc":"aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1OTA1"}}" data-action="add-to-wishlist" role="button">
                                 <i class="pe-7s-like"></i>
                             </button>
                         </li>
                                     
                                                         <li>
-                        <button class="action tocompare" title="Add to Compare" data-title="Add to Compare" aria-label="Add to Compare" data-post="{"action":"https:\/\/dahabmasr.com\/catalog\/product_compare\/add\/","data":{"product":"95","uenc":"aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1MzE3"}}" role="button">
+                        <button class="action tocompare" title="Add to Compare" data-title="Add to Compare" aria-label="Add to Compare" data-post="{"action":"https:\/\/dahabmasr.com\/catalog\/product_compare\/add\/","data":{"product":"95","uenc":"aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1OTA1"}}" role="button">
                             <i class="pe-7s-graph3"></i>
                         </button>
                     </li>
@@ -982,10 +982,10 @@ El Galla
                             <div class="product-item-inner">
                     <div class="product actions product-item-actions">
                                                     <div class="actions-primary">
-                                                                                                        <form data-role="tocart-form" data-product-sku="El Galla Gold Bar, 500 Gram, 999.9 Pure" action="https://dahabmasr.com/checkout/cart/add/uenc/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1MzE3/product/95/" method="post">
+                                                                                                        <form data-role="tocart-form" data-product-sku="El Galla Gold Bar, 500 Gram, 999.9 Pure" action="https://dahabmasr.com/checkout/cart/add/uenc/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL1ByaWNlQXV0aC9kYXRhLmpzb24mdD0xNzc5MDQ1OTA1/product/95/" method="post">
                                         <input type="hidden" name="product" value="95">
-                                        <input type="hidden" name="uenc" value="aHR0cHM6Ly9kYWhhYm1hc3IuY29tL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNITTZMeTlrWVdoaFltMWhjM0l1WTI5dEwxQnlhV05sUVhWMGFDOWtZWFJoTG1wemIyNG1kRDB4TnpjNU1EUTFNekUzL3Byb2R1Y3QvOTUv">
-                                        <input name="form_key" type="hidden" value="1Q3qqAFQUKQoGeSM">
+                                        <input type="hidden" name="uenc" value="aHR0cHM6Ly9kYWhhYm1hc3IuY29tL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNITTZMeTlrWVdoaFltMWhjM0l1WTI5dEwxQnlhV05sUVhWMGFDOWtZWFJoTG1wemIyNG1kRDB4TnpjNU1EUTFPVEExL3Byb2R1Y3QvOTUv">
+                                        <input name="form_key" type="hidden" value="k2mJg8OBLDUazLN2">
                                                                                     <button type="submit" title="Add to Cart" class="action tocart btn btn-default btn-xs">
                                                 <span>Add to Cart</span>
                                             </button>
@@ -1479,7 +1479,7 @@ gtag('config', 'G-8X0CXLLDTP');
         }
     }
 </script>
-<script>window.checkout = {"shoppingCartUrl":"https:\/\/dahabmasr.com\/checkout\/cart\/","checkoutUrl":"https:\/\/dahabmasr.com\/checkout\/","updateItemQtyUrl":"https:\/\/dahabmasr.com\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/dahabmasr.com\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/dahabmasr.com\/","minicartMaxItemsVisible":5,"websiteId":"1","maxItemsToDisplay":10,"storeId":"1","storeGroupId":"1","customerLoginUrl":"https:\/\/dahabmasr.com\/customer\/account\/login\/referer\/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL2Ntcy9ub3JvdXRlL2luZGV4Lw~~\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/dahabmasr.com\/captcha\/refresh\/","isRequired":false,"timestamp":1779045318}}}</script>
+<script>window.checkout = {"shoppingCartUrl":"https:\/\/dahabmasr.com\/checkout\/cart\/","checkoutUrl":"https:\/\/dahabmasr.com\/checkout\/","updateItemQtyUrl":"https:\/\/dahabmasr.com\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/dahabmasr.com\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/dahabmasr.com\/","minicartMaxItemsVisible":5,"websiteId":"1","maxItemsToDisplay":10,"storeId":"1","storeGroupId":"1","customerLoginUrl":"https:\/\/dahabmasr.com\/customer\/account\/login\/referer\/aHR0cHM6Ly9kYWhhYm1hc3IuY29tL2Ntcy9ub3JvdXRlL2luZGV4Lw~~\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/dahabmasr.com\/captcha\/refresh\/","isRequired":false,"timestamp":1779045905}}}</script>
 <script type="text/x-magento-init">
     {
         "[data-block='minicart']": {
@@ -1568,7 +1568,7 @@ gtag('config', 'G-8X0CXLLDTP');
 <script type="text/x-magento-init">
     {
         "body": {
-            "pageCache": {"url":"https:\/\/dahabmasr.com\/page_cache\/block\/render\/","handles":["default","cms_noroute_index","cms_page_view","cms_noroute_index_id_no-route","instant_search"],"originalRequest":{"route":"cms","controller":"noroute","action":"index","uri":"\/PriceAuth\/data.json&t=1779045317"},"versionCookieName":"private_content_version"}        }
+            "pageCache": {"url":"https:\/\/dahabmasr.com\/page_cache\/block\/render\/","handles":["default","cms_noroute_index","cms_page_view","cms_noroute_index_id_no-route","instant_search"],"originalRequest":{"route":"cms","controller":"noroute","action":"index","uri":"\/PriceAuth\/data.json&t=1779045905"},"versionCookieName":"private_content_version"}        }
     }
 </script>
 <script>
@@ -1664,7 +1664,7 @@ gtag('config', 'G-8X0CXLLDTP');
     {
         ".product-item-actions button.action.tocart": {
             "widgetAddToCart": {
-                "formKey": "1Q3qqAFQUKQoGeSM"            }
+                "formKey": "k2mJg8OBLDUazLN2"            }
         }
     }
 </script>
@@ -1871,4 +1871,4 @@ gtag('config', 'G-8X0CXLLDTP');
 </body>
 </html>
 
-# Last Update: Sun May 17 19:15:18 2026
+# Last Update: Sun May 17 19:25:06 2026
