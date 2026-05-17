@@ -1,37 +1,40 @@
 name: Update Gold Data
 
+
 on:
   schedule:
-    # هذه هي الصيغة الصحيحة لـ 45 دقيقة
-    - cron: '*/45 * * * *'
+    - cron: '*/30 * * * *'  # كل 30 دقيقة
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  fetch:
+    runs-on: ubuntu-22.04
+
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+      - name: سحب المشروع
+        uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: تثبيت بايثون
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.11'
 
-      - name: Install Dependencies
+      - name: تثبيت المكتبات
+        run: pip install requests
+
+      - name: تشغيل السكريبت
+        run: python fetch_sheet.py
+
+      - name: رفع التحديثات
         run: |
-          pip install pandas requests
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Run Script
-        run: python main.py 
+          git add data/
 
-      - name: Commit and Push changes
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add data.csv
-          git commit -m "Auto Update: $(date)" || echo "No changes to update"
+          git commit -m "تحديث تلقائي $(date)" || echo "No changes"
+
           git push
