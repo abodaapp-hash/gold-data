@@ -1,8 +1,6 @@
 {
-    "Low_Bid": 4539.7,
-    "High_Ask": 4541.3,
-    "International_24_USD_Sell": 145.97,
-    "International_24_USD_Buy": 146.02,
-    "Last_Record": 1780084800,
-    "last_update_timestamp": "Sat May 30 23:49:57 2026"
+    "gold": "N/A",
+    "status": "fallback",
+    "note": "source unavailable",
+    "last_update_timestamp": "Sun May 31 07:52:52 2026"
 }
