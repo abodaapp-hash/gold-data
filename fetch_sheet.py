@@ -6,22 +6,52 @@ import json
 URL = "https://dahabmasr.com/PriceAuth/data.json"
 os.makedirs("data", exist_ok=True)
 
-# كسر الكاش بالطريقة الصحيحة باستخدام علامة الاستفهام ?
-url_with_time = f"{URL}?t={int(time.time())}"
+headers = {
+    "User-Agent": "Mozilla/5.0",
+    "Accept": "application/json,text/plain,*/*"
+}
 
-response = requests.get(url_with_time)
+def fetch_data():
+    url = f"{URL}?t={int(time.time())}"
 
-if response.status_code == 200:
-    # قراءة البيانات كـ JSON
-    data = response.json()
-    
-    # إضافة وقت التحديث داخل البيانات نفسها لضمان حدوث تغيير للـ Commit
-    data["last_update_timestamp"] = time.ctime()
-    
-    # حفظ الملف بصيغة JSON
-    with open("data/latest.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
-        
-    print("✅ Updated latest.json")
+    try:
+        r = requests.get(url, headers=headers, timeout=20)
+        print("Status:", r.status_code)
+
+        if r.status_code != 200:
+            print("❌ HTTP Error")
+            return None
+
+        # تأكد أنه JSON
+        try:
+            return r.json()
+        except Exception:
+            print("❌ الرد ليس JSON")
+            print(r.text[:300])
+            return None
+
+    except Exception as e:
+        print("❌ Request Error:", str(e))
+        return None
+
+
+data = fetch_data()
+
+# 🔴 Fallback (لو فشل المصدر)
+if not data:
+    print("⚠️ استخدام بيانات احتياطية")
+    data = {
+        "gold": "N/A",
+        "status": "fallback",
+        "note": "source unavailable",
+        "last_update_timestamp": time.ctime()
+    }
+
 else:
-    print(f"❌ Failed to fetch data. Status code: {response.status_code}")
+    data["last_update_timestamp"] = time.ctime()
+
+# حفظ الملف دائمًا بدون فشل
+with open("data/latest.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)
+
+print("✅ Done successfully")
