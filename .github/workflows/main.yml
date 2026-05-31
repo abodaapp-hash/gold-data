@@ -1,40 +1,39 @@
 name: Update Gold Data
 
-
 on:
   schedule:
-    - cron: '*/30 * * * *'  # كل 30 دقيقة
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 jobs:
   fetch:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     permissions:
       contents: write
 
     steps:
-      - name: سحب المشروع
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: تثبيت بايثون
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: تثبيت المكتبات
+      - name: Install dependencies
         run: pip install requests
 
-      - name: تشغيل السكريبت
+      - name: Run fetch script
         run: python fetch_sheet.py
 
-      - name: رفع التحديثات
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add data/
 
-          git commit -m "تحديث تلقائي $(date)" || echo "No changes"
+          git commit -m "Auto update $(date)" || echo "No changes"
 
           git push
