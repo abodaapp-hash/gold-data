@@ -1,6 +1,8 @@
 {
-    "gold": "N/A",
-    "status": "fallback",
-    "note": "source unavailable",
-    "last_update_timestamp": "Fri Jun 12 06:22:58 2026"
+    "Low_Bid": 4214.2,
+    "High_Ask": 4214.8,
+    "International_24_USD_Sell": 135.5,
+    "International_24_USD_Buy": 135.52,
+    "Last_Record": 1781258400,
+    "last_update_timestamp": "Fri Jun 12 10:44:55 2026"
 }
