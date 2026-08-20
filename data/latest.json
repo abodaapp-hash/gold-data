@@ -1,8 +1,8 @@
 {
-    "Low_Bid": 4510.3,
-    "High_Ask": 4510.9,
-    "International_24_USD_Sell": 145.03,
-    "International_24_USD_Buy": 145.04,
+    "Low_Bid": 4509.5,
+    "High_Ask": 4510,
+    "International_24_USD_Sell": 145,
+    "International_24_USD_Buy": 145.02,
     "Last_Record": 1787241600,
-    "last_update_timestamp": "Thu Aug 20 16:19:01 2026"
+    "last_update_timestamp": "Thu Aug 20 16:57:03 2026"
 }
